@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-25T11:39:46Z" name="nopCommerce" finished-at="2020-02-25T11:40:11Z" duration-ms="25365">
+  <suite started-at="2020-03-05T16:13:32Z" name="nopCommerce" finished-at="2020-03-05T16:13:56Z" duration-ms="23941">
     <groups>
     </groups>
-    <test started-at="2020-02-25T11:39:46Z" name="Test1" finished-at="2020-02-25T11:40:11Z" duration-ms="25365">
+    <test started-at="2020-03-05T16:13:32Z" name="Test1" finished-at="2020-03-05T16:13:56Z" duration-ms="23941">
       <class name="com.nopCommerce.testCase.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopCommerce.testCase.TC_LoginTest_001@7a52f2a2]" started-at="2020-02-25T11:39:46Z" name="setup" finished-at="2020-02-25T11:39:53Z" duration-ms="7437" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopCommerce.testCase.TC_LoginTest_001@69930714]" started-at="2020-03-05T16:13:32Z" name="setup" finished-at="2020-03-05T16:13:39Z" duration-ms="7382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.nopCommerce.testCase.TC_LoginTest_001@7a52f2a2]" started-at="2020-02-25T11:39:53Z" name="loginTest" finished-at="2020-02-25T11:40:06Z" duration-ms="13022" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.nopCommerce.testCase.TC_LoginTest_001@69930714]" started-at="2020-03-05T16:13:39Z" name="loginTest" finished-at="2020-03-05T16:13:51Z" duration-ms="11929" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopCommerce.testCase.TC_LoginTest_001@7a52f2a2]" started-at="2020-02-25T11:40:07Z" name="tearDown" finished-at="2020-02-25T11:40:11Z" duration-ms="4580" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopCommerce.testCase.TC_LoginTest_001@69930714]" started-at="2020-03-05T16:13:51Z" name="tearDown" finished-at="2020-03-05T16:13:56Z" duration-ms="4598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

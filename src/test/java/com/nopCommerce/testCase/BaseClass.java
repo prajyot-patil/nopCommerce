@@ -36,7 +36,7 @@ public class BaseClass {
 		driver.quit();
 	}
 	
-	public void captureScreen(WebDriver driver, String tname) throws IOException
+	public void captureScreen(WebDriver driver,String tname) throws IOException
 	{
 		TakesScreenshot ts  = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
